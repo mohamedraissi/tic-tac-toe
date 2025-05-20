@@ -21,16 +21,16 @@ https://github.com/mohamedraissi/tic-tac-toe.git
 cd tic-tac-toe ```
 
 ### 2. Install Backend Dependencies
-```bash
+```
 composer install
 cp .env.example .env
 php artisan key:generate
 php artisan migrate
-
+ ```
 ### 3. Serve the Application
-```bash
+```
 php artisan serve
-
+ ```
 ## 🎯 Frontend React – Tic Tac Toe
 
 The application frontend (developed with React.js) is located in the folder:
@@ -38,11 +38,11 @@ The application frontend (developed with React.js) is located in the folder:
 📁 tic-tac-toe-frontend/
 ⚠️ Note: You don’t need to follow these steps unless you want to modify the React frontend
 ### 🔧 Installation and Launch of the Frontend
-```bash
+
 cd tic-tac-toe-frontend
 npm install
 npm start
- 
+
 ## 🚀 Build & Deploy Frontend Inside Laravel
 
 After development, you can build your React frontend and copy the production files inside your Laravel app's public directory (e.g., public/elifiwes):
