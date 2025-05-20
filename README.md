@@ -17,26 +17,26 @@ This is a full-stack web application boilerplate using Laravel (as backend API) 
 
 ### 1. Clone the Repository
 ```bash
-https://github.com/mohamedraissi/tic-tac-toe.git
-cd tic-tac-toe ```
+git clone https://github.com/mohamedraissi/tic-tac-toe.git
+cd tic-tac-toe
 
 ### 2. Install Backend Dependencies
-```
+
 composer install
 cp .env.example .env
 php artisan key:generate
 php artisan migrate
- ```
+
 ### 3. Serve the Application
-```
+
 php artisan serve
- ```
+
 ## 🎯 Frontend React – Tic Tac Toe
 
 The application frontend (developed with React.js) is located in the folder:
-
-📁 tic-tac-toe-frontend/
 ⚠️ Note: You don’t need to follow these steps unless you want to modify the React frontend
+📁 tic-tac-toe-frontend/
+
 ### 🔧 Installation and Launch of the Frontend
 
 cd tic-tac-toe-frontend
